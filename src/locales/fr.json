@@ -3,8 +3,7 @@
     "home_link": "Accueil",
     "about_link": "A propos",
     "counter_link": "Compteur",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Se connecter",
+    "portfolio_link": "Portfolio",    "stocks_link": "Actions IA",    "sign_in_link": "Se connecter",
     "sign_up_link": "S'inscrire"
   },
   "BaseTemplate": {
