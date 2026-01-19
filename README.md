@@ -22,7 +22,7 @@ An **end-to-end stock analysis platform** combining:
 ## ⚡️ Quick Start
 
 ### **No Installation Needed** — Try It Now
-1. Open [`polytope-research-interface.html`](polytope-research-interface.html) in any browser
+1. Open [`polytope-v3-global-stock-screener.html`](polytope-v3-global-stock-screener.html) in any browser
 2. Enter stock financial metrics (pre-filled with Apple example)
 3. Click "Run Polytope Analysis"
 4. See real-time forensic scoring and valuation
@@ -181,7 +181,7 @@ src/
 └── models/
     └── Schema.ts                   ← Database schema
 
-polytope-research-interface.html    ← Interactive demo (no Node.js)
+polytope-v3-global-stock-screener.html    ← Interactive demo (no Node.js)
 CLEANUP_LOG.md                      ← Changelog of refactoring
 START_HERE.md                       ← Quick navigation
 POLYTOPE_MODEL.md                   ← Full documentation
@@ -425,7 +425,7 @@ MIT — Free to use and modify
 
 ---
 
-**Start analyzing undervalued stocks today.** 👉 [Try the demo →](polytope-research-interface.html)
+**Start analyzing undervalued stocks today.** 👉 [Try the demo →](polytope-v3-global-stock-screener.html)
 
 See [`POLYTOPE_MODEL.md`](POLYTOPE_MODEL.md) for complete technical documentation.
 
