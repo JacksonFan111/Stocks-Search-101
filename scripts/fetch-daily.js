@@ -6,7 +6,14 @@ import { fileURLToPath } from 'url';
 import { sampleStocks as defaultStocks } from '../src/services/sampleData.js';
 
 // Config
-const FINNHUB_KEY = process.env.VITE_FINNHUB_API_KEY || 'd5na9lhr01ql6sfqd5e0d5na9lhr01ql6sfqd5eg';
+const FINNHUB_KEY = process.env.VITE_FINNHUB_API_KEY;
+
+// Validate API key is provided
+if (!FINNHUB_KEY) {
+  console.error('❌ VITE_FINNHUB_API_KEY environment variable is required!');
+  console.error('   Set it in your .env file or pass as environment variable');
+  process.exit(1);
+}
 const DATE_STR = new Date().toISOString().slice(0, 10);
 const allowInsecureSsl = process.env.ALLOW_INSECURE_SSL === 'true';
 const SYMBOLS_FILE = process.env.INGEST_SYMBOLS_FILE || '';

@@ -20,7 +20,7 @@ export const apiConfiguration = {
     ],
     endpoints: 6,
     implemented: true,
-    apiKey: import.meta.env.VITE_FINNHUB_API_KEY || 'd5na9lhr01ql6sfqd5e0d5na9lhr01ql6sfqd5eg'
+    apiKey: import.meta.env.VITE_FINNHUB_API_KEY || 'DEMO_MODE'
   },
 
   yahooFinance: {

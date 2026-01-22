@@ -11,6 +11,7 @@ import APIManager from './components/APIManager';
 import About from './components/About';
 import { searchStocks } from './services/finnhubAPI';
 import { preloadAnalysis } from './services/analysisCache';
+import { validateSearchQuery } from './utils/validators';
 import './index.css';
 
 function App() {
@@ -36,7 +37,10 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      const data = await searchStocks(query);
+      // Validate input first
+      const validatedQuery = validateSearchQuery(query);
+
+      const data = await searchStocks(validatedQuery);
       const filteredResults = data.result
         ?.filter(stock => 
           stock.type === 'Common Stock' && 
@@ -51,8 +55,8 @@ function App() {
         setError('No stocks found. Try searching for symbols like AAPL, TSLA, or GOOGL.');
       }
     } catch (err) {
-      setError('Failed to search stocks. Please try again.');
-      console.error(err);
+      setError(err.message || 'Failed to search stocks. Please try again.');
+      console.error('Search error:', err);
     } finally {
       setLoading(false);
     }

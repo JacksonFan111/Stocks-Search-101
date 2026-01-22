@@ -26,10 +26,12 @@ const log = {
 // Test configuration
 const TEST_SYMBOL = 'AAPL';
 const API_KEYS = {
-  finnhub: process.env.VITE_FINNHUB_API_KEY || 'd5na9lhr01ql6sfqd5e0d5na9lhr01ql6sfqd5eg',
-  alphaVantage: 'HOR6ZHVJ8U0GGVE4',
-  fmp: 'Hc1TctggUGJUJf0iHoVOYv2y49YN1s73'
+  finnhub: process.env.VITE_FINNHUB_API_KEY || null,
 };
+
+if (!API_KEYS.finnhub) {
+  log.warn('VITE_FINNHUB_API_KEY not set - tests will use demo mode');
+}
 
 // Sleep function to avoid rate limits
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
