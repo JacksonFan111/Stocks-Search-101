@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 247.65,
+    "d": 0.95,
+    "dp": 0.3851,
+    "h": 251.56,
+    "l": 245.18,
+    "o": 248.7,
+    "pc": 246.7,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Technology",
+    "ipo": "1980-12-12",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
+    "marketCapitalization": 3639941.2746994616,
+    "name": "Apple Inc",
+    "phone": "14089961010",
+    "shareOutstanding": 14776.35,
+    "ticker": "AAPL",
+    "weburl": "https://www.apple.com/"
+  }
+}

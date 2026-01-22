@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 29.17,
+    "d": 1.26,
+    "dp": 4.5145,
+    "h": 29.55,
+    "l": 28.335,
+    "o": 28.66,
+    "pc": 27.91,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Financial Services",
+    "ipo": "1995-08-25",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/IVZ.png",
+    "marketCapitalization": 12983.359691286993,
+    "name": "Invesco Ltd",
+    "phone": "14048920896",
+    "shareOutstanding": 445.09,
+    "ticker": "IVZ",
+    "weburl": "https://www.invesco.com/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 25.47,
+    "d": 0.63,
+    "dp": 2.5362,
+    "h": 25.5,
+    "l": 25.01,
+    "o": 25.08,
+    "pc": 24.84,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Financial Services",
+    "ipo": "1986-12-05",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BEN.png",
+    "marketCapitalization": 13279.82085522826,
+    "name": "Franklin Resources Inc",
+    "phone": "16503122000",
+    "shareOutstanding": 520.97,
+    "ticker": "BEN",
+    "weburl": "https://www.franklinresources.com/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 612.96,
+    "d": 8.84,
+    "dp": 1.4633,
+    "h": 618.27,
+    "l": 600.08,
+    "o": 606.74,
+    "pc": 604.12,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Media",
+    "ipo": "2012-05-18",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FB.png",
+    "marketCapitalization": 1544982.5166532153,
+    "name": "Meta Platforms Inc",
+    "phone": "16505434800",
+    "shareOutstanding": 2520.53,
+    "ticker": "META",
+    "weburl": "https://www.meta.com/"
+  }
+}

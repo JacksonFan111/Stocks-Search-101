@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 15.91,
+    "d": 0.52,
+    "dp": 3.3788,
+    "h": 15.945,
+    "l": 15.43,
+    "o": 15.66,
+    "pc": 15.39,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Chemicals",
+    "ipo": "1948-09-10",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FMC.png",
+    "marketCapitalization": 1987.4783071871345,
+    "name": "FMC Corp",
+    "phone": "12152996668",
+    "shareOutstanding": 124.92,
+    "ticker": "FMC",
+    "weburl": "https://www.fmc.com/en"
+  }
+}

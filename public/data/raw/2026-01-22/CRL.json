@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 226.77,
+    "d": 8.58,
+    "dp": 3.9324,
+    "h": 226.93,
+    "l": 219.52,
+    "o": 219.52,
+    "pc": 218.19,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Life Sciences Tools & Services",
+    "ipo": "2000-06-23",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CRL.png",
+    "marketCapitalization": 11160.59297655823,
+    "name": "Charles River Laboratories International Inc",
+    "phone": "17812226000",
+    "shareOutstanding": 49.22,
+    "ticker": "CRL",
+    "weburl": "https://www.criver.com/"
+  }
+}

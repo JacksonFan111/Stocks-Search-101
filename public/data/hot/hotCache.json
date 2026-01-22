@@ -1,0 +1,273 @@
+{
+  "sampleStocks": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "description": "AAPL",
+      "displaySymbol": "AAPL",
+      "type": "Equity",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "description": "MSFT",
+      "displaySymbol": "MSFT",
+      "type": "Equity",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "description": "GOOGL",
+      "displaySymbol": "GOOGL",
+      "type": "Equity",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com Inc.",
+      "description": "AMZN",
+      "displaySymbol": "AMZN",
+      "type": "Equity",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "description": "NVDA",
+      "displaySymbol": "NVDA",
+      "type": "Equity",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms Inc.",
+      "description": "META",
+      "displaySymbol": "META",
+      "type": "Equity",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "description": "TSLA",
+      "displaySymbol": "TSLA",
+      "type": "Equity",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc.",
+      "description": "AVGO",
+      "displaySymbol": "AVGO",
+      "type": "Equity",
+      "exchange": "NASDAQ"
+    }
+  ],
+  "mockStockQuotes": {
+    "AAPL": {
+      "c": 247.65,
+      "d": 0.95,
+      "dp": 0.3851,
+      "h": 251.56,
+      "l": 245.18,
+      "o": 248.7,
+      "pc": 246.7,
+      "t": 1769029200
+    },
+    "GOOGL": {
+      "c": 328.38,
+      "d": 6.38,
+      "dp": 1.9814,
+      "h": 332.4799,
+      "l": 319.3518,
+      "o": 320.92,
+      "pc": 322,
+      "t": 1769029200
+    },
+    "MSFT": {
+      "c": 444.11,
+      "d": -10.41,
+      "dp": -2.2903,
+      "h": 452.69,
+      "l": 438.68,
+      "o": 452.595,
+      "pc": 454.52,
+      "t": 1769029200
+    },
+    "AMZN": {
+      "c": 231.31,
+      "d": 0.31,
+      "dp": 0.1342,
+      "h": 232.3,
+      "l": 226.88,
+      "o": 231.085,
+      "pc": 231,
+      "t": 1769029200
+    },
+    "NVDA": {
+      "c": 183.32,
+      "d": 5.25,
+      "dp": 2.9483,
+      "h": 185.379,
+      "l": 178.42,
+      "o": 179.05,
+      "pc": 178.07,
+      "t": 1769029200
+    },
+    "AVGO": {
+      "c": 328.8,
+      "d": -3.8,
+      "dp": -1.1425,
+      "h": 335.8,
+      "l": 324.2001,
+      "o": 335.505,
+      "pc": 332.6,
+      "t": 1769029200
+    },
+    "META": {
+      "c": 612.96,
+      "d": 8.84,
+      "dp": 1.4633,
+      "h": 618.27,
+      "l": 600.08,
+      "o": 606.74,
+      "pc": 604.12,
+      "t": 1769029200
+    },
+    "TSLA": {
+      "c": 431.44,
+      "d": 12.19,
+      "dp": 2.9076,
+      "h": 438.2,
+      "l": 419.6201,
+      "o": 421.66,
+      "pc": 419.25,
+      "t": 1769029200
+    }
+  },
+  "mockCompanyProfiles": {
+    "AAPL": {
+      "country": "US",
+      "currency": "USD",
+      "estimateCurrency": "USD",
+      "exchange": "NASDAQ NMS - GLOBAL MARKET",
+      "finnhubIndustry": "Technology",
+      "ipo": "1980-12-12",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
+      "marketCapitalization": 3639941.2746994616,
+      "name": "Apple Inc",
+      "phone": "14089961010",
+      "shareOutstanding": 14776.35,
+      "ticker": "AAPL",
+      "weburl": "https://www.apple.com/"
+    },
+    "GOOGL": {
+      "country": "US",
+      "currency": "USD",
+      "estimateCurrency": "USD",
+      "exchange": "NASDAQ NMS - GLOBAL MARKET",
+      "finnhubIndustry": "Media",
+      "ipo": "2004-08-19",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
+      "marketCapitalization": 3963443.7413908457,
+      "name": "Alphabet Inc",
+      "phone": "16502530000",
+      "shareOutstanding": 12067,
+      "ticker": "GOOGL",
+      "weburl": "https://abc.xyz/"
+    },
+    "MSFT": {
+      "country": "US",
+      "currency": "USD",
+      "estimateCurrency": "USD",
+      "exchange": "NASDAQ NMS - GLOBAL MARKET",
+      "finnhubIndustry": "Technology",
+      "ipo": "1986-03-13",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
+      "marketCapitalization": 3300793.0657181283,
+      "name": "Microsoft Corp",
+      "phone": "14258828080",
+      "shareOutstanding": 7432.38,
+      "ticker": "MSFT",
+      "weburl": "https://www.microsoft.com/en-in/"
+    },
+    "AMZN": {
+      "country": "US",
+      "currency": "USD",
+      "estimateCurrency": "USD",
+      "exchange": "NASDAQ NMS - GLOBAL MARKET",
+      "finnhubIndustry": "Retail",
+      "ipo": "1997-05-15",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
+      "marketCapitalization": 2472753.8213962964,
+      "name": "Amazon.com Inc",
+      "phone": "12062661000",
+      "shareOutstanding": 10690.22,
+      "ticker": "AMZN",
+      "weburl": "https://www.amazon.com/"
+    },
+    "NVDA": {
+      "country": "US",
+      "currency": "USD",
+      "estimateCurrency": "USD",
+      "exchange": "NASDAQ NMS - GLOBAL MARKET",
+      "finnhubIndustry": "Semiconductors",
+      "ipo": "1999-01-22",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NVDA.png",
+      "marketCapitalization": 4454676.183226317,
+      "name": "NVIDIA Corp",
+      "phone": "14084862000",
+      "shareOutstanding": 24300,
+      "ticker": "NVDA",
+      "weburl": "https://www.nvidia.com/"
+    },
+    "AVGO": {
+      "country": "US",
+      "currency": "USD",
+      "estimateCurrency": "USD",
+      "exchange": "NASDAQ NMS - GLOBAL MARKET",
+      "finnhubIndustry": "Semiconductors",
+      "ipo": "2009-08-06",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AVGO.png",
+      "marketCapitalization": 1558930.8954044092,
+      "name": "Broadcom Inc",
+      "phone": "16504276000",
+      "shareOutstanding": 4722.37,
+      "ticker": "AVGO",
+      "weburl": "https://www.broadcom.com"
+    },
+    "META": {
+      "country": "US",
+      "currency": "USD",
+      "estimateCurrency": "USD",
+      "exchange": "NASDAQ NMS - GLOBAL MARKET",
+      "finnhubIndustry": "Media",
+      "ipo": "2012-05-18",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FB.png",
+      "marketCapitalization": 1544982.5166532153,
+      "name": "Meta Platforms Inc",
+      "phone": "16505434800",
+      "shareOutstanding": 2520.53,
+      "ticker": "META",
+      "weburl": "https://www.meta.com/"
+    },
+    "TSLA": {
+      "country": "US",
+      "currency": "USD",
+      "estimateCurrency": "USD",
+      "exchange": "NASDAQ NMS - GLOBAL MARKET",
+      "finnhubIndustry": "Automobiles",
+      "ipo": "2010-06-29",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
+      "marketCapitalization": 1434891.494297084,
+      "name": "Tesla Inc",
+      "phone": "15125168177",
+      "shareOutstanding": 3325.82,
+      "ticker": "TSLA",
+      "weburl": "https://www.tesla.com/"
+    }
+  },
+  "fetchedAt": "2026-01-22T02:03:15.160Z"
+}

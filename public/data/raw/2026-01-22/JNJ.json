@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 218.01,
+    "d": -0.2,
+    "dp": -0.0917,
+    "h": 218.675,
+    "l": 210.5,
+    "o": 211,
+    "pc": 218.21,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Pharmaceuticals",
+    "ipo": "1944-09-25",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/JNJ.png",
+    "marketCapitalization": 525250.4020787991,
+    "name": "Johnson & Johnson",
+    "phone": "17325242455",
+    "shareOutstanding": 2409.3,
+    "ticker": "JNJ",
+    "weburl": "https://www.jnj.com/"
+  }
+}

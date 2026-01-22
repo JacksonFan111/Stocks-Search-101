@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 328.38,
+    "d": 6.38,
+    "dp": 1.9814,
+    "h": 332.4799,
+    "l": 319.3518,
+    "o": 320.92,
+    "pc": 322,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Media",
+    "ipo": "2004-08-19",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
+    "marketCapitalization": 3963443.7413908457,
+    "name": "Alphabet Inc",
+    "phone": "16502530000",
+    "shareOutstanding": 12067,
+    "ticker": "GOOGL",
+    "weburl": "https://abc.xyz/"
+  }
+}

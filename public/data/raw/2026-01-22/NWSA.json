@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 26.13,
+    "d": 0.26,
+    "dp": 1.005,
+    "h": 26.32,
+    "l": 26.01,
+    "o": 26.02,
+    "pc": 25.87,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Media",
+    "ipo": "2013-06-19",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NWSA.png",
+    "marketCapitalization": 15469.432415653266,
+    "name": "News Corp",
+    "phone": "12124163400",
+    "shareOutstanding": 561.51,
+    "ticker": "NWSA",
+    "weburl": "https://newscorp.com/"
+  }
+}

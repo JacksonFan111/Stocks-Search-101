@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 48.26,
+    "d": 1.72,
+    "dp": 3.6957,
+    "h": 48.36,
+    "l": 46.68,
+    "o": 47.05,
+    "pc": 46.54,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Auto Components",
+    "ipo": "1993-08-13",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BWA.png",
+    "marketCapitalization": 10324.171073481306,
+    "name": "Borgwarner Inc",
+    "phone": "12487549200",
+    "shareOutstanding": 213.93,
+    "ticker": "BWA",
+    "weburl": "https://www.borgwarner.com/"
+  }
+}

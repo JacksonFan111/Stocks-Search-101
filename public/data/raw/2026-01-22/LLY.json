@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 1078.52,
+    "d": 37.23,
+    "dp": 3.5754,
+    "h": 1081.33,
+    "l": 1042.02,
+    "o": 1043.86,
+    "pc": 1041.29,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Pharmaceuticals",
+    "ipo": "1970-07-09",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LLY.png",
+    "marketCapitalization": 1019615.296601822,
+    "name": "Eli Lilly and Co",
+    "phone": "13172762000",
+    "shareOutstanding": 945.38,
+    "ticker": "LLY",
+    "weburl": "https://www.lilly.com/"
+  }
+}

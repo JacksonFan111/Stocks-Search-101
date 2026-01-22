@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 325.28,
+    "d": -0.54,
+    "dp": -0.1657,
+    "h": 328.67,
+    "l": 323,
+    "o": 326.43,
+    "pc": 325.82,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Financial Services",
+    "ipo": "2008-03-25",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/V.png",
+    "marketCapitalization": 622012.6487742709,
+    "name": "Visa Inc",
+    "phone": "16504323200",
+    "shareOutstanding": 1914.1,
+    "ticker": "V",
+    "weburl": "https://usa.visa.com/"
+  }
+}

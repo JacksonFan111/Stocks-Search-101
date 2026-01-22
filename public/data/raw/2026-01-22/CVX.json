@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 166.73,
+    "d": 1.43,
+    "dp": 0.8651,
+    "h": 168.475,
+    "l": 166.06,
+    "o": 167,
+    "pc": 165.3,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Energy",
+    "ipo": "1921-06-24",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CVX.png",
+    "marketCapitalization": 335714.46364037326,
+    "name": "Chevron Corp",
+    "phone": "18328541000",
+    "shareOutstanding": 2013.52,
+    "ticker": "CVX",
+    "weburl": "https://www.chevron.com/"
+  }
+}

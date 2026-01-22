@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 138.73,
+    "d": 1.73,
+    "dp": 1.2628,
+    "h": 139.91,
+    "l": 137.54,
+    "o": 137.54,
+    "pc": 137,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Insurance",
+    "ipo": "1980-12-31",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GL.png",
+    "marketCapitalization": 11043.712192494304,
+    "name": "Globe Life Inc",
+    "phone": "19725694000",
+    "shareOutstanding": 79.61,
+    "ticker": "GL",
+    "weburl": "https://home.globelifeinsurance.com/"
+  }
+}

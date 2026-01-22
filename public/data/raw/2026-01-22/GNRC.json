@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 172.06,
+    "d": 10,
+    "dp": 6.1706,
+    "h": 174.63,
+    "l": 165.995,
+    "o": 166.93,
+    "pc": 162.06,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Electrical Equipment",
+    "ipo": "2010-02-11",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GNRC.png",
+    "marketCapitalization": 10097.180376891767,
+    "name": "Generac Holdings Inc",
+    "phone": "18884363722",
+    "shareOutstanding": 58.68,
+    "ticker": "GNRC",
+    "weburl": "https://investors.generac.com/"
+  }
+}

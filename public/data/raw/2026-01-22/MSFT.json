@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 444.11,
+    "d": -10.41,
+    "dp": -2.2903,
+    "h": 452.69,
+    "l": 438.68,
+    "o": 452.595,
+    "pc": 454.52,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Technology",
+    "ipo": "1986-03-13",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
+    "marketCapitalization": 3300793.0657181283,
+    "name": "Microsoft Corp",
+    "phone": "14258828080",
+    "shareOutstanding": 7432.38,
+    "ticker": "MSFT",
+    "weburl": "https://www.microsoft.com/en-in/"
+  }
+}

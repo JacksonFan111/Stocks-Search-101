@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 384.64,
+    "d": 9.53,
+    "dp": 2.5406,
+    "h": 385.92,
+    "l": 374.675,
+    "o": 375.8,
+    "pc": 375.11,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Retail",
+    "ipo": "1984-04-19",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HD.png",
+    "marketCapitalization": 382913.5186405404,
+    "name": "Home Depot Inc",
+    "phone": "17704338211",
+    "shareOutstanding": 995.51,
+    "ticker": "HD",
+    "weburl": "https://www.homedepot.com/"
+  }
+}

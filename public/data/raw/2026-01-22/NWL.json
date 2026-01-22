@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 4.26,
+    "d": 0.04,
+    "dp": 0.9479,
+    "h": 4.305,
+    "l": 4.16,
+    "o": 4.25,
+    "pc": 4.22,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Consumer products",
+    "ipo": "1979-06-28",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NWL.png",
+    "marketCapitalization": 1785.7919636587678,
+    "name": "Newell Brands Inc",
+    "phone": "18004241941",
+    "shareOutstanding": 419.2,
+    "ticker": "NWL",
+    "weburl": "https://www.newellbrands.com/"
+  }
+}

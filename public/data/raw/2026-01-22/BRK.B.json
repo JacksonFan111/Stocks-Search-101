@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 483.83,
+    "d": -1.56,
+    "dp": -0.3214,
+    "h": 488,
+    "l": 481.57,
+    "o": 484,
+    "pc": 485.39,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Financial Services",
+    "ipo": "1980-03-17",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BRK.B.png",
+    "marketCapitalization": 1041920.8537691636,
+    "name": "Berkshire Hathaway Inc",
+    "phone": "14023461400",
+    "shareOutstanding": 1.44,
+    "ticker": "BRK.A",
+    "weburl": "https://www.berkshirehathaway.com/"
+  }
+}

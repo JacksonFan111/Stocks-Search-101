@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 61.58,
+    "d": 2.49,
+    "dp": 4.2139,
+    "h": 61.75,
+    "l": 59.25,
+    "o": 60.38,
+    "pc": 59.09,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Banking",
+    "ipo": "1966-01-01",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ZION.png",
+    "marketCapitalization": 9000.197819222021,
+    "name": "Zions Bancorporation NA",
+    "phone": "18018447637",
+    "shareOutstanding": 147.64,
+    "ticker": "ZION",
+    "weburl": "https://www.zionsbancorporation.com/overview/default.aspx"
+  }
+}

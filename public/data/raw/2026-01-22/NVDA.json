@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 183.32,
+    "d": 5.25,
+    "dp": 2.9483,
+    "h": 185.379,
+    "l": 178.42,
+    "o": 179.05,
+    "pc": 178.07,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Semiconductors",
+    "ipo": "1999-01-22",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NVDA.png",
+    "marketCapitalization": 4454676.183226317,
+    "name": "NVIDIA Corp",
+    "phone": "14084862000",
+    "shareOutstanding": 24300,
+    "ticker": "NVDA",
+    "weburl": "https://www.nvidia.com/"
+  }
+}

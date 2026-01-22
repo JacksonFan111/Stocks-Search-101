@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 71.02,
+    "d": 0.49,
+    "dp": 0.6947,
+    "h": 71.18,
+    "l": 70.05,
+    "o": 71.03,
+    "pc": 70.53,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Real Estate",
+    "ipo": "1993-10-29",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959048126.png",
+    "marketCapitalization": 12900.006299,
+    "name": "Regency Centers Corp",
+    "phone": "19045987000",
+    "shareOutstanding": 182.9,
+    "ticker": "REG",
+    "weburl": "https://www.regencycenters.com/"
+  }
+}

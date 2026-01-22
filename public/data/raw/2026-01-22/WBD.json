@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 28.53,
+    "d": 0.29,
+    "dp": 1.0269,
+    "h": 28.72,
+    "l": 28.2,
+    "o": 28.32,
+    "pc": 28.24,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Media",
+    "ipo": "2005-07-06",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959073106.png",
+    "marketCapitalization": 70708.71381384775,
+    "name": "Warner Bros Discovery Inc",
+    "phone": "12125485555",
+    "shareOutstanding": 2477.97,
+    "ticker": "WBD",
+    "weburl": "https://www.wbd.com/"
+  }
+}

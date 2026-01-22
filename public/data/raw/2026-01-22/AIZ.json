@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 238.23,
+    "d": 5.48,
+    "dp": 2.3545,
+    "h": 238.93,
+    "l": 232.91,
+    "o": 233.16,
+    "pc": 232.75,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Insurance",
+    "ipo": "2004-02-04",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AIZ.png",
+    "marketCapitalization": 11930.82238135798,
+    "name": "Assurant Inc",
+    "phone": "17707631000",
+    "shareOutstanding": 50.08,
+    "ticker": "AIZ",
+    "weburl": "https://www.assurant.com/"
+  }
+}

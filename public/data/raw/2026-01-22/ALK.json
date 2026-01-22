@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 48.96,
+    "d": 1.36,
+    "dp": 2.8571,
+    "h": 49.96,
+    "l": 48.19,
+    "o": 48.5,
+    "pc": 47.6,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Airlines",
+    "ipo": "1983-02-23",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ALK.png",
+    "marketCapitalization": 5678.8021296,
+    "name": "Alaska Air Group Inc",
+    "phone": "12063925040",
+    "shareOutstanding": 115.99,
+    "ticker": "ALK",
+    "weburl": "https://investor.alaskaair.com/"
+  }
+}

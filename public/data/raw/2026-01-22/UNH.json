@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 347.75,
+    "d": 9.32,
+    "dp": 2.7539,
+    "h": 348.0799,
+    "l": 338.69,
+    "o": 339.43,
+    "pc": 338.43,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Health Care",
+    "ipo": "1984-10-17",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/UNH.png",
+    "marketCapitalization": 315005.37434708286,
+    "name": "UnitedHealth Group Inc",
+    "phone": "18003285979",
+    "shareOutstanding": 905.84,
+    "ticker": "UNH",
+    "weburl": "https://www.unitedhealthgroup.com/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 527.57,
+    "d": -4.17,
+    "dp": -0.7842,
+    "h": 537.4,
+    "l": 524.77,
+    "o": 533.52,
+    "pc": 531.74,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Financial Services",
+    "ipo": "2006-05-25",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MA.png",
+    "marketCapitalization": 473755.65856550017,
+    "name": "Mastercard Inc",
+    "phone": "19142492000",
+    "shareOutstanding": 898,
+    "ticker": "MA",
+    "weburl": "https://www.mastercard.us/"
+  }
+}

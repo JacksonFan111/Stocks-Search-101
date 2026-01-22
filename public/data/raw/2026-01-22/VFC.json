@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 19.52,
+    "d": 0.87,
+    "dp": 4.6649,
+    "h": 19.76,
+    "l": 18.825,
+    "o": 18.98,
+    "pc": 18.65,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Textiles, Apparel & Luxury Goods",
+    "ipo": "1951-03-19",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/VFC.png",
+    "marketCapitalization": 7626.947197975335,
+    "name": "VF Corp",
+    "phone": "17207784000",
+    "shareOutstanding": 390.72,
+    "ticker": "VFC",
+    "weburl": "https://www.vfc.com/"
+  }
+}

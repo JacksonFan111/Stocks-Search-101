@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 422.68,
+    "d": 7.1,
+    "dp": 1.7085,
+    "h": 426.79,
+    "l": 410.6101,
+    "o": 419.99,
+    "pc": 415.58,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Aerospace & Defense",
+    "ipo": "2011-03-19",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HII.png",
+    "marketCapitalization": 16586.568022553638,
+    "name": "Huntington Ingalls Industries Inc",
+    "phone": "17573802000",
+    "shareOutstanding": 39.24,
+    "ticker": "HII",
+    "weburl": "https://hii.com/"
+  }
+}

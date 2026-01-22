@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 119.36,
+    "d": 0.65,
+    "dp": 0.5476,
+    "h": 120.49,
+    "l": 117.545,
+    "o": 118.075,
+    "pc": 118.71,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Retail",
+    "ipo": "1972-08-25",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WMT.png",
+    "marketCapitalization": 941601.8805846082,
+    "name": "Walmart Inc",
+    "phone": "15012734000",
+    "shareOutstanding": 7970.17,
+    "ticker": "WMT",
+    "weburl": "https://corporate.walmart.com/"
+  }
+}

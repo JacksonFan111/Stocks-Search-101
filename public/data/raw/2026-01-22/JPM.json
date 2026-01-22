@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 302.04,
+    "d": -0.7,
+    "dp": -0.2312,
+    "h": 305.4,
+    "l": 301.15,
+    "o": 303.425,
+    "pc": 302.74,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Banking",
+    "ipo": "1969-03-05",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/JPM.png",
+    "marketCapitalization": 822232.0504885475,
+    "name": "JPMorgan Chase & Co",
+    "phone": "12122706000",
+    "shareOutstanding": 2749.75,
+    "ticker": "JPM",
+    "weburl": "https://www.jpmorganchase.com/"
+  }
+}

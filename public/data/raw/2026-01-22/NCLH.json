@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 20.87,
+    "d": 0.5,
+    "dp": 2.4546,
+    "h": 21.1699,
+    "l": 20.33,
+    "o": 20.41,
+    "pc": 20.37,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Hotels, Restaurants & Leisure",
+    "ipo": "2013-01-18",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NCLH.png",
+    "marketCapitalization": 9501.224569033873,
+    "name": "Norwegian Cruise Line Holdings Ltd",
+    "phone": "13054364000",
+    "shareOutstanding": 455.26,
+    "ticker": "NCLH",
+    "weburl": "https://www.nclhltd.com/"
+  }
+}

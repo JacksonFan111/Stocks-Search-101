@@ -1,0 +1,27 @@
+{
+  "quote": {
+    "c": 27.65,
+    "d": 0.62,
+    "dp": 2.2937,
+    "h": 27.875,
+    "l": 27.13,
+    "o": 27.43,
+    "pc": 27.03,
+    "t": 1769029200
+  },
+  "profile": {
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Chemicals",
+    "ipo": "2004-10-25",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MOS.png",
+    "marketCapitalization": 8776.327757815388,
+    "name": "Mosaic Co",
+    "phone": "18137754200",
+    "shareOutstanding": 317.41,
+    "ticker": "MOS",
+    "weburl": "https://www.mosaicco.com/"
+  }
+}
