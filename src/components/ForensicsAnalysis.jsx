@@ -10,24 +10,40 @@ const ForensicsAnalysis = ({ stock }) => {
 
   // Load stock data on component mount or stock change
   useEffect(() => {
+    let isMounted = true;
+
     const loadStockData = async () => {
       if (!stock?.symbol) return;
-      setLoading(true);
+      
+      if (isMounted) setLoading(true);
       try {
         const [q, p] = await Promise.all([
           getStockQuote(stock.symbol),
           getCompanyProfile(stock.symbol)
         ]);
-        setQuote(q);
-        setProfile(p);
-        setAnalysis(calculateForensicAnalysis(q, p));
+        
+        if (isMounted) {
+          setQuote(q);
+          setProfile(p);
+          setAnalysis(calculateForensicAnalysis(q, p));
+        }
       } catch (err) {
-        console.error('Failed to load stock data:', err);
+        if (isMounted) {
+          console.error('Failed to load stock data:', err);
+        }
       } finally {
-        setLoading(false);
+        if (isMounted) {
+          setLoading(false);
+        }
       }
     };
+
     loadStockData();
+
+    // Cleanup function - prevent state updates after unmount
+    return () => {
+      isMounted = false;
+    };
   }, [stock?.symbol]);
 
   // Forensic analysis calculator

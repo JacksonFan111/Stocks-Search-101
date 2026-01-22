@@ -9,6 +9,7 @@ import DeepDive from './components/DeepDive';
 import ForensicsAnalysis from './components/ForensicsAnalysis';
 import APIManager from './components/APIManager';
 import About from './components/About';
+import ErrorBoundary from './components/ErrorBoundary';
 import { searchStocks } from './services/finnhubAPI';
 import { preloadAnalysis } from './services/analysisCache';
 import './index.css';
@@ -153,11 +154,13 @@ function App() {
         )}
 
         {currentView === 'deepdive' && selectedStock && (
-          <DeepDive 
-            symbol={selectedStock.symbol} 
-            onBack={handleBack}
-            onAddToWatchlist={() => addToWatchlist(selectedStock)}
-          />
+          <ErrorBoundary>
+            <DeepDive 
+              symbol={selectedStock.symbol} 
+              onBack={handleBack}
+              onAddToWatchlist={() => addToWatchlist(selectedStock)}
+            />
+          </ErrorBoundary>
         )}
 
         {currentView === 'watchlist' && (
@@ -172,7 +175,9 @@ function App() {
 
         {currentView === 'forensics' && (
           <div className="max-w-7xl mx-auto px-4 py-8">
-            <ForensicsAnalysis stock={selectedStock} />
+            <ErrorBoundary>
+              <ForensicsAnalysis stock={selectedStock} />
+            </ErrorBoundary>
           </div>
         )}
 

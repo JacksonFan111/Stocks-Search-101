@@ -36,6 +36,8 @@ const DeepDive = ({ symbol: symbolProp, onBack, onAddToWatchlist }) => {
       setLoading(false);
       return;
     }
+
+    let isMounted = true;
     
     const fetchAndAnalyze = async () => {
       // Check cache first for instant display
@@ -43,25 +45,29 @@ const DeepDive = ({ symbol: symbolProp, onBack, onAddToWatchlist }) => {
       
       if (cached) {
         // Instant load from cache
-        setQuote(cached.quote);
-        setProfile(cached.profile);
-        setMetrics(cached.metrics);
-        setPolytopeScore(cached.polytopeScore);
-        setValuations(cached.valuations);
-        setBenchmark(cached.benchmark);
-        setChartData(cached.chartData);
-        setLoading(false);
+        if (isMounted) {
+          setQuote(cached.quote);
+          setProfile(cached.profile);
+          setMetrics(cached.metrics);
+          setPolytopeScore(cached.polytopeScore);
+          setValuations(cached.valuations);
+          setBenchmark(cached.benchmark);
+          setChartData(cached.chartData);
+          setLoading(false);
+        }
         return;
       }
       
       // Fallback: fetch and calculate if not cached
-      setLoading(true);
-      setError(null);
+      if (isMounted) setLoading(true);
+      if (isMounted) setError(null);
       try {
         const [quoteData, profileData] = await Promise.all([
           getStockQuote(symbol),
           getCompanyProfile(symbol)
         ]);
+
+        if (!isMounted) return;
 
         setQuote(quoteData);
         setProfile(profileData);
@@ -83,14 +89,23 @@ const DeepDive = ({ symbol: symbolProp, onBack, onAddToWatchlist }) => {
         const priceHistory = generateChartsData(quoteData);
         setChartData(priceHistory);
       } catch (err) {
-        console.error('Error in Deep Dive:', err);
-        setError('Failed to load analysis data. Please try another stock.');
+        if (isMounted) {
+          console.error('Error in Deep Dive:', err);
+          setError('Failed to load analysis data. Please try another stock.');
+        }
       } finally {
-        setLoading(false);
+        if (isMounted) {
+          setLoading(false);
+        }
       }
     };
 
     fetchAndAnalyze();
+
+    // Cleanup function - prevent state updates after unmount
+    return () => {
+      isMounted = false;
+    };
   }, [symbol]);
 
   if (loading) {

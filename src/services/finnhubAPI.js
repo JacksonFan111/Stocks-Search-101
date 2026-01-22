@@ -6,28 +6,35 @@ const BASE_URL = 'https://finnhub.io/api/v1';
 const USE_MOCK_DATA = !API_KEY || API_KEY === 'demo'; // Use mock data if no API key or demo mode
 
 // Hot cache loader (from public/data/hot/hotCache.json)
-let hotCacheLoaded = false;
-const ensureHotCache = async () => {
-  if (hotCacheLoaded) return;
-  try {
-    const res = await fetch('/data/hot/hotCache.json');
-    if (!res.ok) throw new Error('hot cache not found');
-    const data = await res.json();
+// Use promise-based caching to prevent race conditions
+let hotCachePromise = null;
 
-    if (Array.isArray(data.sampleStocks)) {
-      sampleStocks.splice(0, sampleStocks.length, ...data.sampleStocks);
+const ensureHotCache = async () => {
+  // Return existing promise if already loading
+  if (hotCachePromise) return hotCachePromise;
+  
+  // Create promise and cache it
+  hotCachePromise = (async () => {
+    try {
+      const res = await fetch('/data/hot/hotCache.json');
+      if (!res.ok) throw new Error('hot cache not found');
+      const data = await res.json();
+
+      if (Array.isArray(data.sampleStocks)) {
+        sampleStocks.splice(0, sampleStocks.length, ...data.sampleStocks);
+      }
+      if (data.mockStockQuotes) {
+        Object.assign(mockStockQuotes, data.mockStockQuotes);
+      }
+      if (data.mockCompanyProfiles) {
+        Object.assign(mockCompanyProfiles, data.mockCompanyProfiles);
+      }
+    } catch (err) {
+      console.warn('Hot cache load skipped:', err.message);
     }
-    if (data.mockStockQuotes) {
-      Object.assign(mockStockQuotes, data.mockStockQuotes);
-    }
-    if (data.mockCompanyProfiles) {
-      Object.assign(mockCompanyProfiles, data.mockCompanyProfiles);
-    }
-  } catch (err) {
-    console.warn('Hot cache load skipped:', err.message);
-  } finally {
-    hotCacheLoaded = true;
-  }
+  })();
+
+  return hotCachePromise;
 };
 
 const finnhubAPI = axios.create({
